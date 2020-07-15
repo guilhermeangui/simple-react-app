@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import { Formik, Form, Field } from 'formik';
 import { validateEmail, validatePhone, validateCep, validateDate } from '../../utils/validators.js'
 import { PhoneInput, CepInput, DateInput } from '../../components/CustomInputs'
-
 
 class PaginaUm extends Component {
   render() {
@@ -20,7 +18,7 @@ class PaginaUm extends Component {
             console.log(values);
           }}
         >
-          {({ errors, touched, dirty, isValidating, isSubmitting}) => (
+          {({ errors, touched, dirty, isValidating, isSubmitting, isValid}) => (
             <Form>
               <Field 
                 name="email" 
@@ -56,7 +54,7 @@ class PaginaUm extends Component {
               />
               {errors.date && touched.date && <div>{errors.date}</div>}
 
-              <button type="submit" disabled={!_.isEmpty(errors) || !dirty }>Submit</button>
+              <button type="submit" disabled={!isValid || !dirty }>Submit</button>
             </Form>
           )}
         </Formik>
