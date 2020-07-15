@@ -8,6 +8,10 @@ Simple React application for simple websites.
 :abc: &nbsp; Formik + Yup + React-text-mask <br>
 
 
+## Description
+This repository tries to synthesize examples of commonly used features when developing a simple website in React (like routing, styling, form validations, REST requisitions) without major complications.
+
+
 ## What's included?
 
 * **Routing examples:** <br>
@@ -27,3 +31,6 @@ Simple React application for simple websites.
   - Custom masks examples <br>
   - Custom validations examples <br>
   - Form submit example <br>
+
+* **REST requisitions: (TODO)** <br>
+  - (TODO)
