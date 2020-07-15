@@ -1,5 +1,5 @@
 ## About
-Simple React application skeleton for simple websites. <br><br>
+Simple React application skeleton for simple websites. <br>
 
 This repository tries to synthesize examples of commonly used features when developing a simple website in React (like routing, styling, form validations, REST requisitions) without major complications. <br><br>
 
@@ -9,7 +9,7 @@ This repository tries to synthesize examples of commonly used features when deve
 :rocket: &nbsp;react ([Create React App](https://github.com/facebook/create-react-app)) <br>
 :busstop:  &nbsp;react-router-dom <br>
 :art: &nbsp;sass <br>
-:abc: &nbsp; Formik + Yup + React-text-mask <br>
+:abc: &nbsp; Formik + Yup + React-text-mask <br><br>
 
 
 ## What's included?
