@@ -6,9 +6,9 @@ This repository tries to synthesize examples of commonly used features when deve
 
 ## What's inside?
 
-:rocket: &nbsp;react ([Create React App](https://github.com/facebook/create-react-app)) <br>
-:busstop:  &nbsp;react-router-dom <br>
-:art: &nbsp;sass <br>
+:rocket: &nbsp; React ([Create React App](https://github.com/facebook/create-react-app)) <br>
+:busstop:  &nbsp; React-router-dom <br>
+:art: &nbsp; Sass <br>
 :abc: &nbsp; Formik + Yup + React-text-mask <br><br>
 
 
