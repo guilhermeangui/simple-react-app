@@ -5,15 +5,13 @@ import Home from './pages/Home';
 import PaginaUm from './pages/PaginaUm';
 import NotFound from './pages/NotFound';
 
-// import './index.css';
-
 function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact={true} component={Home} />
-        <Route path="/PaginaUm" component={PaginaUm} />
-        <Route path="*" component={NotFound} />
+        <Route path="/" exact={ true } component={ Home } />
+        <Route path="/PaginaUm" component={ PaginaUm } />
+        <Route path="*" component={ NotFound } />
       </Switch>
     </BrowserRouter>    
   );

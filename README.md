@@ -34,3 +34,9 @@ This repository tries to synthesize examples of commonly used features when deve
 
 * **REST requisitions: (TODO)** <br>
   - (TODO)
+
+* **Pop-up modals: (TODO)** <br>
+  - (TODO)
+
+* **Application configurations: (TODO)** <br>
+  - (TODO)

@@ -14,47 +14,47 @@ class PaginaUm extends Component {
             cep: '',
             date: '',
           }}
-          onSubmit={values => {
-            console.log(values);
+          onSubmit={ values => {
+            console.log( values );
           }}
         >
-          {({ errors, touched, dirty, isValidating, isSubmitting, isValid}) => (
+          {({ errors, touched, dirty, isValidating, isSubmitting, isValid }) => (
             <Form>
               <Field 
                 name="email" 
-                validate={validateEmail} 
-                className={errors.email && touched.email ? "text-input error" : "text-input"}
+                validate={ validateEmail } 
+                className={ errors.email && touched.email ? "text-input error" : "text-input" }
               />
-              {errors.email && touched.email && <div>{errors.email}</div>}
+              {errors.email && touched.email && <div>{ errors.email }</div>}
 
               <Field 
                 name="phone" 
-                as={PhoneInput}
-                validate={validatePhone}
-                className={errors.phone && touched.phone ? "text-input error" : "text-input"}
+                as={ PhoneInput }
+                validate={ validatePhone }
+                className={ errors.phone && touched.phone ? "text-input error" : "text-input" }
                 placeholder="Insira seu telefone"
               />
-              {errors.phone && touched.phone && <div>{errors.phone}</div>}
+              {errors.phone && touched.phone && <div>{ errors.phone }</div>}
 
               <Field 
                 name="cep" 
-                as={CepInput}
-                validate={validateCep}
-                className={errors.cep && touched.cep ? "text-input error" : "text-input"}
+                as={ CepInput }
+                validate={ validateCep }
+                className={ errors.cep && touched.cep ? "text-input error" : "text-input" }
                 placeholder="Insira seu CEP"
               />
-              {errors.cep && touched.cep && <div>{errors.cep}</div>}
+              {errors.cep && touched.cep && <div>{ errors.cep }</div>}
 
               <Field 
                 name="date" 
-                as={DateInput}
-                validate={validateDate}
-                className={errors.date && touched.date ? "text-input error" : "text-input"}
+                as={ DateInput }
+                validate={ validateDate }
+                className={ errors.date && touched.date ? "text-input error" : "text-input" }
                 placeholder="Insira a data"
               />
-              {errors.date && touched.date && <div>{errors.date}</div>}
+              {errors.date && touched.date && <div>{ errors.date }</div>}
 
-              <button type="submit" disabled={!isValid || !dirty }>Submit</button>
+              <button type="submit" disabled={ !isValid || !dirty }>Submit</button>
             </Form>
           )}
         </Formik>

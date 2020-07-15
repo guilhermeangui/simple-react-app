@@ -3,27 +3,27 @@ import React from "react";
 import MaskedInput from 'react-text-mask'
 import { phoneMask, cepMask, dateMask } from '../../utils/masks.js'
 
-const PhoneInput = (props) => (
+const PhoneInput = ( props ) => (
   <MaskedInput 
-    {...props} 
+    { ...props } 
     type="text"
-    mask={phoneMask}
+    mask={ phoneMask }
   />
 );
 
-const CepInput = (props) => (
+const CepInput = ( props ) => (
   <MaskedInput 
-    {...props} 
+    { ...props } 
     type="text"
-    mask={cepMask}
+    mask={ cepMask }
   />
 );
 
-const DateInput = (props) => (
+const DateInput = ( props ) => (
   <MaskedInput 
-    {...props} 
+    { ...props } 
     type="text"
-    mask={dateMask}
+    mask={ dateMask }
   />
 );
 
