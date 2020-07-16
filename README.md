@@ -9,7 +9,8 @@ This repository tries to synthesize examples of commonly used features when deve
 :rocket: &nbsp; React ([Create React App](https://github.com/facebook/create-react-app)) <br>
 :busstop:  &nbsp; React-router-dom <br>
 :art: &nbsp; Sass <br>
-:abc: &nbsp; Formik + Yup + React-text-mask <br><br>
+:abc: &nbsp; Formik + Yup + React-text-mask <br>
+:triangular_flag_on_post: &nbsp; FontAwesome <br><br>
 
 
 ## What's included?
@@ -44,4 +45,4 @@ This repository tries to synthesize examples of commonly used features when deve
   - (TODO)
 
 * **Application configurations: (TODO)** <br>
-  - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only)
+  - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only - please add it to your .gitignore file)
