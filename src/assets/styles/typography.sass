@@ -1,1 +1,54 @@
-$font-stack: Helvetica, sans-serif
+$breakpoints: ( xs: 576px, sm: 768px, md: 992px, lg: 1200px )
+$breakpoint: map-get($breakpoints, sm)
+
+body
+  font-smooth: always
+  font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+@include respond-above(sm)
+  h1
+    font-size: 64px
+    margin: 24px 0px
+  h2
+    font-size: 52px
+    margin: 24px 0px
+  h3
+    font-size: 40px
+    margin: 18px 0px
+  h4
+    font-size: 32px
+    margin: 18px 0px
+  h5
+    font-size: 26px
+    margin: 16px 0px
+
+  h6
+    font-size: 21px
+    margin: 16px 0px
+
+@include respond-below(sm)
+  h1
+    font-size: 42px
+    margin: 20px 0px
+
+  h2
+    font-size: 36px
+    margin: 20px 0px
+
+  h3
+    font-size: 28px
+    margin: 16px 0px
+
+  h4
+    font-size: 24px
+    margin: 16px 0px
+    
+  h5
+    font-size: 20px
+    margin: 14px 0px
+
+  h6
+    font-size: 16px
+    margin: 14px 0px

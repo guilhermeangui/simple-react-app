@@ -38,5 +38,8 @@ This repository tries to synthesize examples of commonly used features when deve
 * **Pop-up modals: (TODO)** <br>
   - (TODO)
 
+* **Animations: (TODO)** <br>
+  - (TODO)
+
 * **Application configurations: (TODO)** <br>
   - (TODO)
