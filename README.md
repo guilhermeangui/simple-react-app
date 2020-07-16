@@ -21,8 +21,11 @@ This repository tries to synthesize examples of commonly used features when deve
 
 * **Styling:** <br>
   - Variables separated by files examples <br>
-  - Font-face examples (TODO) <br>
-  - Typography examples (TODO) <br>
+  - Font-face examples <br>
+  - Typography examples <br>
+  - Colors examples <br>
+  - Mixins examples <br>
+  - Reset CSS <br>
 
 * **Form (formik):** <br>
   - Inputs with validation examples <br>
