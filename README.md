@@ -25,6 +25,7 @@ This repository tries to synthesize examples of commonly used features when deve
   - Typography examples <br>
   - Colors examples <br>
   - Mixins examples <br>
+  - Animations examples <br>
   - Reset CSS <br>
 
 * **Form (formik):** <br>
@@ -41,8 +42,5 @@ This repository tries to synthesize examples of commonly used features when deve
 * **Pop-up modals: (TODO)** <br>
   - (TODO)
 
-* **Animations: (TODO)** <br>
-  - (TODO)
-
 * **Application configurations: (TODO)** <br>
-  - (TODO)
+  - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only)

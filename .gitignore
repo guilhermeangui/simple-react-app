@@ -1,2 +1,8 @@
+# api keys
+# THIS IS ONLY AN EXAMPLE
+# REMOVE # FROM .ENV WHEN UPLOADING TO GITHUB OR ELSE YOUR KEYS WILL BE EXPOSED
+# .env 
+
+# general files
 .DS_Store
 node_modules
