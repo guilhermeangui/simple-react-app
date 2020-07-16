@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './index.sass'
 
-console.log(`API KEY ${process.env.NODE_ENV} =>`, process.env[`REACT_APP_API_KEY_${process.env.NODE_ENV}`])
+console.log( `API KEY ${process.env.NODE_ENV} =>`, process.env[`REACT_APP_API_KEY_${process.env.NODE_ENV}`] )
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1 className="home__title primary-color"> Title H1 </h1>
+        <h1 className="home__title primary-color"> Title H1 <FontAwesomeIcon icon="check-square" /> </h1>
         <h2 className="home__title secondary-color"> Title H2 </h2>
         <h3 className="home__title accent-color"> Title H3 </h3>
         <h4 className="home__title highlight-color"> Title H4 </h4>

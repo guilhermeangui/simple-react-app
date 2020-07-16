@@ -5,6 +5,17 @@ import Router from './Router'
 
 import * as serviceWorker from './serviceWorker';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import * as Icons from '@fortawesome/free-solid-svg-icons'
+
+// Font-awesome
+const iconList = Object
+  .keys(Icons)
+  .filter(key => key !== "fas" && key !== "prefix" )
+  .map(icon => Icons[icon])
+library.add(...iconList)
+
+// Render project
 ReactDOM.render(
   <React.StrictMode>
     <Router />

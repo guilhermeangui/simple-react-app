@@ -26,6 +26,7 @@ This repository tries to synthesize examples of commonly used features when deve
   - Colors examples <br>
   - Mixins examples <br>
   - Animations examples <br>
+  - Font-awesome icons <br>
   - Reset CSS <br>
 
 * **Form (formik):** <br>
