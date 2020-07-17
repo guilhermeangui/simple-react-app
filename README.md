@@ -18,7 +18,7 @@ This repository tries to synthesize examples of commonly used features when deve
 * **Routing examples:** <br>
   - Main page example (home) <br>
   - Secondary page example (/SubPage) <br>
-  - 404 page example (/any-url) <br>
+  - 404 page example (/any-url) <br><br>
 
 * **Styling:** <br>
   - Variables separated by files examples <br>
@@ -28,7 +28,7 @@ This repository tries to synthesize examples of commonly used features when deve
   - Mixins examples <br>
   - Animations examples <br>
   - Font-awesome icons <br>
-  - Reset CSS <br>
+  - Reset CSS <br><br>
 
 * **Form (formik):** <br>
   - Inputs with validation examples <br>
@@ -36,13 +36,13 @@ This repository tries to synthesize examples of commonly used features when deve
   - Custom inputs with with masks and validation examples <br>
   - Custom masks examples <br>
   - Custom validations examples <br>
-  - Form submit example <br>
+  - Form submit example <br><br>
 
 * **REST requisitions:** <br>
-  - Axios GET and form POST example on /subpage page
+  - Axios GET and form POST example on /subpage page<br><br>
 
 * **Pop-up modals:** <br>
-  - Modal example on /home page
+  - Modal example on /home page<br><br>
 
 * **Application configurations:** <br>
-  - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only - please add it to your .gitignore file)
+  - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only - please add it to your .gitignore file)<br>
