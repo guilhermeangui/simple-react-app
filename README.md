@@ -38,11 +38,11 @@ This repository tries to synthesize examples of commonly used features when deve
   - Custom validations examples <br>
   - Form submit example <br>
 
-* **REST requisitions: (TODO)** <br>
+* **REST requisitions:** <br>
   - Axios GET and form POST example on /subpage page
 
-* **Pop-up modals: (TODO)** <br>
+* **Pop-up modals:** <br>
   - Modal example on /home page
 
-* **Application configurations: (TODO)** <br>
+* **Application configurations:** <br>
   - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only - please add it to your .gitignore file)
