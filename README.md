@@ -17,7 +17,7 @@ This repository tries to synthesize examples of commonly used features when deve
 
 * **Routing examples:** <br>
   - Main page example (home) <br>
-  - Secondary page example (/PaginaUm) <br>
+  - Secondary page example (/SubPage) <br>
   - 404 page example (/any-url) <br>
 
 * **Styling:** <br>
@@ -39,10 +39,10 @@ This repository tries to synthesize examples of commonly used features when deve
   - Form submit example <br>
 
 * **REST requisitions: (TODO)** <br>
-  - (TODO)
+  - Axios GET and form POST example on /subpage page
 
 * **Pop-up modals: (TODO)** <br>
-  - (TODO)
+  - Modal example on /home page
 
 * **Application configurations: (TODO)** <br>
   - .env file (that CAN'T be uploaded to GitHub in a real-case scenario, demo only - please add it to your .gitignore file)

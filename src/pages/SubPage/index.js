@@ -3,7 +3,16 @@ import { Formik, Form, Field } from 'formik';
 import { validateEmail, validatePhone, validateCep, validateDate } from '../../utils/validators.js'
 import { PhoneInput, CepInput, DateInput } from '../../components/CustomInputs'
 
-class PaginaUm extends Component {
+import axios from 'axios';
+
+class SubPage extends Component {
+  componentDidMount() {
+    axios.get(process.env[`REACT_APP_API_URL_${process.env.NODE_ENV}`])
+      .then(res => {
+        console.log(res)
+      })
+  }
+
   render() {
     return (
       <div>
@@ -16,6 +25,14 @@ class PaginaUm extends Component {
           }}
           onSubmit={ values => {
             console.log( values );
+
+            axios.post(process.env[`REACT_APP_API_URL_${process.env.NODE_ENV}`], {
+              endpoint: '/teste',
+              params: { yaba: 'dabadoo' }
+            })
+            .then(res => {
+              console.log(res)
+            })
           }}
         >
           {({ errors, touched, dirty, isValidating, isSubmitting, isValid }) => (
@@ -62,4 +79,4 @@ class PaginaUm extends Component {
     );
   }
 }
-export default PaginaUm;
+export default SubPage;
